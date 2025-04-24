@@ -38,22 +38,25 @@ header{
     float: left;
 }
 .menu ul li a{  
- padding:0 60px;
+ padding:0 50px;
  color: #626262;
  text-decoration: none;
+ text-transform: uppercase;
+ transition:.33slinear ;
+
  
 }
-menu ul li:last-child a{
-    padding-right: 0;
+.menu ul li:last-child a{
+    padding-right: 0px;
 }
-menu ul li a:hover{
-    border: 1px solid;#626262;
+.menu ul li a:hover{
+    border-bottom: 1px solid;#626262;
 }
 /*header end*/
 /*banner start*/
 .banner{}
 .b_img{}
-.b_img logo{
+.b_img img{
     width: 100%;
 }
 /*banner end*/
